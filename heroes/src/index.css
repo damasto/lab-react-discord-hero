@@ -16,4 +16,7 @@ h6 {
 }
 
 p, text {
-  font
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  margin: 25px
+}

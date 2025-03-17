@@ -3,4 +3,9 @@ import discordLogo from "../assets/discord-logo-white.png"
 
 export function NavBar () {
     return (
-        <nav cl
+        <nav className="nav-bar">
+            <img id="logo" src={discordLogo} alt="discord-logo" />   
+            <img id="menu" src={menuIcon} alt="menu-icon" />
+        </nav>
+    )
+}
